@@ -1,0 +1,1034 @@
+/* Start Shbkat Css */
+/*html {
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #888;min-width: 986px;
+}
+body {
+	background:url(http://tofayas.wc.lt/Archive/col5/page_bg.jpg) center top repeat;
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #888;
+}
+ul, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-position: inside;
+}*/
+img {
+	border: none;
+}
+/*a, input, a:hover, textarea, sub, select {
+	text-decoration: none;
+	outline: 0px none;
+	margin: 0px;
+	padding: 0px;
+}*/
+input, textarea, sub, select {
+	
+	text-decoration: none;
+	outline: 0px none;
+	margin: 0px;
+	padding: 0px;
+}
+legend {
+	background: transparent url(http://tofayas.wc.lt/Archive/col5/tit.jpg) repeat-x top left;
+	color: #fff;
+	
+	border-style: none;
+	border-color: transparent;
+	padding: 5px 8px;
+	text-shadow: 0 1px 0 #999;
+}
+.mypage_c {
+	width:100%
+}
+fieldset {
+	margin-bottom: 6px;
+	border: 1px #C0C0C0 dashed;
+}
+hr {
+	background: #C0C0C0;
+	border-color: #FFFFFF;
+}
+a {
+	color: #8b313c;
+	text-decoration: none;
+}
+a:link, body_alink , .forumlink , a.forumlink:link , a.forumlink{
+	color: #FA4343;
+	text-decoration: none;
+}
+a:visited, body_avisited ,  .forumlink:visited ,a.forumlink:visited {
+	color: #AF2F2F;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #631727;
+	text-decoration: none;
+}
+.page {
+	width: 960px;
+	overflow: hidden;
+	margin: auto;
+}
+.page a:link, .page_alink {
+	text-decoration: none;
+}
+.page a:visited, .page_avisited {
+	text-decoration: none;
+}
+.page a:hover, .page a:active, .page_ahover {
+	text-decoration: none;
+}
+td, th, p, li {
+
+}
+.tborder {
+	background: none;
+}
+.tcat {
+	background: transparent url('http://tofayas.wc.lt/Archive/col5/tab.jpg') repeat-x center -1px;
+	color: #fff;
+	
+	text-align: center;
+	height: 20px;
+	padding: 5px;
+	text-shadow: 0 1px 0 #230e11;
+}
+.tcat a:link, .tcat_alink {
+	color: #fff;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited {
+	color: #fff;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active {
+	color: #fff;
+	text-decoration: none;
+}
+.thead , th ,td.catLeft{
+	background: transparent url('http://tofayas.wc.lt/Archive/col5/tit.jpg') repeat-x center -1px;
+	color: #e3fff8;
+	
+	padding: 5px;
+	height: 20px;
+	text-shadow: 0 1px 0 #123129;
+}
+#fa_toolbar, #fa_toolbar_hidden {
+	background: transparent url('http://tofayas.wc.lt/Archive/col5/tit.jpg') repeat-x center -1px;
+}
+
+.thead a:link, .thead_alink {
+	text-decoration: none;
+	color: #e3fff8;
+}
+.thead a:visited, .thead_avisited {
+	text-decoration: none;
+	color: #e3fff8;
+}
+.thead a:hover, .thead a:active, .thead_ahover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.tfoot {
+	background: transparent;
+	color: #631727;
+	
+	padding: 5px;
+}
+.tfoot a:link, .tfoot_alink {
+	color: #631727;
+	text-decoration: none;
+}
+.tfoot a:visited, .tfoot_avisited {
+	color: #631727;
+	text-decoration: none;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover {
+	color: #ec7e99;
+	text-decoration: none;
+}
+.alt1, .alt1Active, .sm1  {
+	background: #FAFAFA;
+	border-width:3px ;
+        border-style:dotted solid;	
+        border-color:#FA4343;
+
+	/*border-top: 2px #FA4343 dashed;
+	border-left: 2px #FA4343 dashed;
+	border-right: 2px #FA4343 dashed;
+	border-bottom: 2px #FA4343 dashed;*/
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink {
+	text-decoration: none;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited {
+	text-decoration: none;
+}
+.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover {
+	text-decoration: none;
+}
+.alt2, .alt2Active, .sm2  {
+	background: #F2F2F2;
+	border-width:3px ;
+        border-style:dotted solid;	
+        border-color:#FA4343;
+
+	/*border-top: 2px #FA4343 dashed;
+	border-left: 2px #FA4343 dashed;
+	border-right: 2px #FA4343 dashed;
+	border-bottom: 2px #FA4343 dashed;*/
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink {
+	text-decoration: none;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited {
+	text-decoration: none;
+}
+.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover {
+	text-decoration: none;
+}
+.inlinemod {
+	background: #FFFFCC;
+	color: #777777;
+}
+.wysiwyg {
+	background: #FFFFFF;
+	color: #631727;
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink {
+	color: #631727;
+	text-decoration: none;
+}
+.wysiwyg a:visited, .wysiwyg_avisited {
+	color: #631727;
+	text-decoration: none;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover {
+	color: #6b232d;
+	text-decoration: none;
+}
+textarea, .bginput {
+	
+}
+.bginput option, .bginput optgroup {
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica,verdana;
+}
+.button {
+	
+}
+select {
+	
+}
+option, optgroup {
+	font-size: 11px;
+	font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+}
+.smallfont {
+	
+	color: #888888;
+}
+.time {
+	color: #631727;
+
+}
+.navbar {
+
+}
+.navbar a:link, .navbar_alink {
+	text-decoration: none;
+}
+.navbar a:visited, .navbar_avisited {
+	text-decoration: none;
+}
+.navbar a:hover, .navbar a:active, .navbar_ahover {
+	text-decoration: none;
+}
+.highlight {
+	color: #631727;
+	font-weight: bold;
+}
+.fjsel {
+	background: #DEDEDE;
+	color: #777777;
+}
+.fjdpth0 {
+	background: #DEDEDE;
+	color: #888888;
+}
+.panel {
+	background: #EFEFEF;
+	color: #5b1d26;
+	padding: 10px;
+	border: 0px;
+	margin: 5px;
+}
+.panel a:link, .panel_alink {
+	text-decoration: none;
+}
+.panel a:visited, .panel_avisited {
+	text-decoration: none;
+}
+.panel a:hover, .panel a:active, .panel_ahover {
+	text-decoration: none;
+}
+.panelsurround {
+	background: #DEDEDE;
+	color: #888888;
+	font-size: 16px;
+	font-weight: bold;
+}
+.vBulletin_editor {
+}
+.vbmenu_control {
+	background: transparent url('') repeat-x center -1px;
+	color: #fff;
+	
+	text-align: center;
+	height: 20px;
+
+	text-shadow: 0 1px 0 #31171a;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink {
+	color: #fff;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited {
+	color: #fff;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_popup {
+	background: #ececec;
+	color: #666;
+	font-family: tahoma, arial, helvetica,verdana;
+}
+.vbmenu_option {
+	background: #ececec;
+	color: #666;
+	
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink {
+	color: #666;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited {
+	color: #666;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover {
+	color: #666;
+	text-decoration: none;
+}
+.vbmenu_hilite {
+	background: #f4f4f4;
+	color: #888;
+
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink {
+	color: #888;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited {
+	color: #888;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover {
+	color: #888;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername {
+	font-size: 14pt;
+}
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead {
+	padding: 4px;
+}
+/* ***** basic styles for multi-page nav elements */
+.pagenav a {
+	text-decoration: none;
+}
+.pagenav td {
+	padding: 2px 4px 2px 4px;
+}
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited {
+	color: #777777;
+	text-decoration: none;
+}
+a.shade:active, a.shade:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+.tcat .shade, .thead .shade, .tfoot .shade {
+	color: #DDDDDD;
+}
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset {
+	margin-bottom: 6px;
+}
+.fieldset, .fieldset td, .fieldset p, .fieldset li {
+	font-size: 11px;
+}
+/* Css */
+.button {
+	color: #666666;
+	padding: 5px;
+}
+.infouser {
+	
+	letter-spacing: 0px;
+	vertical-align: middle;
+	padding: 1px 2px;
+	margin: 0 2px 2px;
+}
+.avataruser {
+}
+.avataruser img {
+	margin: auto;
+	border: 1px #FFFFFF solid;
+	margin-top: 15px;
+	padding: 5px;
+	background: #ECECEC;
+}
+/* - shbkat - */
+:hover.tcat {
+}
+:hover.alt1 {
+	background: #FFFFFF;
+}
+:hover.alt2 {
+	background: #FFFFFF;
+}
+:hover.alt1Active {
+	background: #FFFFFF;
+}
+:hover.button {
+	color: #333333;
+}
+:hover.vbmenu_control {
+}
+/* Start Cat */
+.Cat {
+	overflow: hidden;
+	width:100%;
+	margin:0 auto;
+}
+.Cat h1 {
+	
+}
+.CatTop {
+	background:url(http://tofayas.wc.lt/Archive/col5/cat2.jpg) repeat-x scroll center top;
+	height: 111px;
+	width: 100%;
+}
+.CatTop_Right {
+	float: right;
+	width: 356px;
+	height: 111px;
+	background: transparent url('http://tofayas.wc.lt/Archive/col5/cat3.jpg') no-repeat scroll right top;
+}
+.CatTop_Right h1 {
+	color: #fafafa;
+	text-align: right;
+	float: right;
+	width: 388px;
+	
+	text-shadow: 0 1px 0 #333;
+	margin-right: 95px;
+	margin-top: 12px;
+}
+.CatTop_Right h1 a {
+	color: #fafafa;
+	text-shadow: 0 1px 0 #333;
+}
+.CatTop_Right h1 a:hover {
+	color: #333;
+	text-shadow: 0 1px 0 #fafafa;
+}
+.CatTop_Left {
+	float: left;
+	width: 374px;
+	height: 111px;
+	background: transparent url('http://tofayas.wc.lt/Archive/z/09.jpg') no-repeat scroll left top;
+}
+.CatCenter_Right {
+	background: transparent url('http://tofayas.wc.lt/Archive/col5/cat5.jpg') repeat-y scroll right center;
+	padding-right: 34px;
+}
+.CatCenter_Left {
+	background: transparent url('http://tofayas.wc.lt/Archive/col5/cat4.jpg') repeat-y scroll left center;
+	padding-left: 34px;
+	overflow:hidden;
+}
+.CatCenter_Left ul {
+	direction:rtl;
+	margin:0 15px 0 0;
+}
+.CatCenter_Left ul li {
+	float:right;
+	width:150px;
+	margin:0 0 10px 5px;
+}
+.CatCenter_Left ul li a {
+	background:url(http://tofayas.wc.lt/Archive/col5/list_b.jpg) right top no-repeat;
+	display:inline-block;
+	height:11px;
+	text-align:right;
+	text-indent:12px;
+	line-height:10px;
+	color:#555;
+	text-shadow:0 1px #fff;
+	font-size:11px;
+	font-weight:bold;
+}
+.CatCenter_Left ul li a:hover {
+	background:url(http://tofayas.wc.lt/Archive/col5/list_b.jpg) right bottom no-repeat;
+	color:#666;
+	text-shadow:0 1px #fff;
+}
+.CatBody {
+	padding: 0px;
+	overflow: hidden;
+}
+.CatBottom {
+	float: left;
+	height: 69px;
+	width: 100%;
+	background: transparent url('http://tofayas.wc.lt/Archive/col5/cat7.jpg') repeat-x scroll center top;
+}
+.CatBottom_Right {
+	float: right;
+	width: 401px;
+	height: 69px;
+	background: transparent url('http://tofayas.wc.lt/Archive/col5/cat8.jpg') no-repeat scroll right top;
+}
+
+.CatBottom_Left {
+	float: left;
+	width: 412px;
+	height: 69px;
+	background: transparent url('http://tofayas.wc.lt/Archive/z/010.jpg') no-repeat scroll left top;
+}
+/* Cat End */
+/* Shbkat Start */
+#wrapper1 {
+	background:url(http://tofayas.wc.lt/Archive/col5/top_bg.jpg) center top repeat-x;
+	width:100%;
+	overflow:visible;
+}
+div {
+	overflow:hidden;
+}
+#wrapper2 {
+	background:url(http://tofayas.wc.lt/Archive/col5/end_bg.jpg) center bottom repeat-x;
+	width:100%;
+	overflow:visible;
+}
+#container {
+	width:100%;
+	margin:0 auto 0 auto;
+	overflow:visible;
+}
+/***header****/
+.header {
+	background:url(http://tofayas.wc.lt/Archive/col5/top_bg.jpg) center top repeat-x;
+	width:100%;
+	height:432px;
+}
+
+.topdash {
+	background:url(http://tofayas.wc.lt/Archive/col5/top_dash.jpg) center top repeat-x;
+	width:100%;
+	height:107px;
+}
+.color {
+	background:url(http://tofayas.wc.lt/Archive/col5/top_dash_L.jpg) left top no-repeat;
+	width:342px;
+	height:107px;
+	float:left;
+}
+.color ul {
+	direction:rtl;
+	margin:34px 0 0 69px;
+}
+.color ul li {
+	float:left;
+	margin:0 4px 0 0;
+}
+.color ul li a {
+	display:block;
+	width:22px;
+	height:22px;
+}
+.topmenu {
+	background:url(http://tofayas.wc.lt/Archive/col5/top_dash_R.jpg) right top no-repeat;
+	width:643px;
+	height:107px;
+	float:right;
+}
+.topmenu ul {
+	direction:rtl;
+	margin:25px 30px 0 0;
+}
+.topmenu ul li {
+	float:right;
+	margin:0 0 0 0px;
+}
+.topmenu ul li a {
+	display:block;
+	width:121px;
+	height:45px;
+	font-size:11px;
+	line-height:38px;
+	text-align:center;
+	font-weight:bold;
+	color:#611828;
+	text-shadow:0 1px #f47293;
+}
+.topmenu ul li a:hover {
+	color:#FFFFFF;
+	text-shadow:0 1px #666;
+	background:url(http://tofayas.wc.lt/Archive/col5/topmenu_btn.png) center top no-repeat;
+}
+.topmenu .active {
+	color:#FFFFFF;
+	background:url(http://tofayas.wc.lt/Archive/col5/topmenu_btn.png) center top no-repeat;
+}
+.tophead {
+	background:url(http://tofayas.wc.lt/Archive/z/ogo%202-5.png) right top no-repeat;
+	width:100%;
+	height:175px;
+}
+.tophead_L {
+	width:500px;
+	height:175px;
+	float:left;
+}
+.adv {
+	width:468px;
+	height:70px;
+	float:left;
+	background:url(http://tofayas.wc.lt/Archive/col5/adv_sh.png) center bottom no-repeat;
+	margin:10px 0 0 20px;
+}
+.dashbar {
+	background:url(http://tofayas.wc.lt/Archive/col5/dashbar.jpg) center top no-repeat;
+	width:100%;
+	height:62px;
+}
+.search {
+	background:url(http://tofayas.wc.lt/Archive/col5/dashbar_L.jpg) left top no-repeat;
+	width:467px;
+	height:62px;
+	float:left;
+}
+.Box {
+	width: 135px;
+	height: 35px;
+	line-height: 35px;
+	border: none 0px;
+	background: none;
+	color: #fff;
+	/*text-shadow:1px 1px #c5a8b6;*/
+	float: right;
+	direction: rtl;
+	margin:8px 185px 0 0;
+}
+ .Box:focus {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.Go {
+	width: 44px;
+	height: 36px;
+	float: right;
+	margin:8px 0 0 0;
+}
+/**/
+.socialtop {
+	background:url(http://tofayas.wc.lt/Archive/col5/dashbar_R.jpg) right top no-repeat;
+	width:427px;
+	height:62px;
+	float:right;
+}
+.socialtop ul {
+	direction:ltr;
+	margin:10px 0 0 69px;
+}
+.socialtop ul li {
+	float:left;
+	margin:0 5px 0 0;
+}
+.socialtop ul li a {
+	display:block;
+	width:36px;
+	height:36px;
+}
+/**/
+.header .navbar {
+	background:url(http://tofayas.wc.lt/Archive/col5/navbar.jpg) center top repeat-x;
+	width:100%;
+	height:88px;
+}
+.navmenu {
+	background:url(http://tofayas.wc.lt/Archive/col5/navbar_L.jpg) left top no-repeat;
+	width:615px;
+	height:88px;
+	float:left;
+}
+.navmenu ul {
+	direction:rtl;
+	margin:11px 20px 0 0;
+}
+.navmenu ul li {
+	float:right;
+	margin:0 0 0 8px;
+}
+.navmenu ul li a {
+	display:block;
+	background:url(http://tofayas.wc.lt/Archive/col5/nav_menu.png) right top no-repeat;
+	width:85px;
+	height:38px;
+	text-align:center;
+	line-height:35px;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-shadow:0 1px 2px #333333;
+}
+.navmenu ul li a:hover {
+	background:url(http://tofayas.wc.lt/Archive/col5/nav_menu.png) left top no-repeat;
+	color:#611828;
+	text-shadow:0 1px 2px #f47293;
+}
+.reg {
+	background:url(http://tofayas.wc.lt/Archive/z/011.jpg) right top no-repeat;
+	width:365px;
+	height:88px;
+	float:right;
+}
+.reg a {
+	display:block;
+	width:234px;
+	height:60px;
+	float:left;
+}
+/**mypage**/
+.mypage_R {
+	background:url(http://tofayas.wc.lt/Archive/col5/mypage_bg_R.jpg) right top repeat-y;
+	padding: 0 39px 0 0;
+	clear:both;
+}
+.mypage_L {
+	/*background:url(http://tofayas.wc.lt/Archive/col5/mypage_bg_L.jpg) left top repeat-y;*/
+	padding: 0 0 0 39px;
+	clear:both;
+}
+/***leftside****/
+.leftside {
+	width:725px;
+	float:left;
+	margin:0 0 0 0;
+}
+/****/
+.tabs {
+	background:url(http://tofayas.wc.lt/Archive/col5/tabs_bg.jpg) center top repeat-x;
+	height:194px;
+	float:left;
+	overflow:hidden;
+	min-width:500px;
+	margin:10px 0 0 25px;
+}
+.tabs_L {
+	background:url(http://tofayas.wc.lt/Archive/col5/tabs_L.jpg) center top no-repeat;
+	width:19px;
+	height:194px;
+	float:left;
+	overflow:hidden;
+}
+.tabs_R {
+	background:url(http://tofayas.wc.lt/Archive/col5/tabs_R.jpg) center top no-repeat;
+	width:17px;
+	height:194px;
+	float:right;
+	overflow:hidden;
+}
+.tabs_C {
+	width:657px;
+	height:194px;
+	float:left;
+}
+.tabs_top {
+	width:657px;
+	height:60px;
+}
+.tabs_top ul {
+	direction:rtl;
+	margin:11px 0 0 0;
+}
+.tabs_top ul li {
+	float:right;
+	margin:0 0 0 5px;
+}
+.tabs_top ul li a {
+	background:url(http://tofayas.wc.lt/Archive/col5/tabs_btn.jpg) left top no-repeat;
+	display:block;
+	width:107px;
+	height:49px;
+	text-align:center;
+	line-height:40px;
+	color:#555;
+	text-shadow:0 1px #fff;
+	font-size:11px;
+	font-weight:bold;
+}
+.tabs_top ul li a:hover {
+	background:url(http://tofayas.wc.lt/Archive/col5/tabs_btn.jpg) right top no-repeat;
+	color:#152e27;
+	text-shadow:0 1px #78d4ba;
+}
+.tabsactive {
+	background:url(http://tofayas.wc.lt/Archive/col5/tabs_btn.jpg) right top no-repeat !important;
+	color:#152e27 !important;
+	text-shadow:0 1px #78d4ba !important;
+}
+/**/
+.tabs_content {
+	width:657px;
+	height:120px;
+}
+.tabs_content ul {
+	direction:rtl;
+	margin:0px 10px 0 0;
+}
+.tabs_content ul li {
+	float:right;
+	width:150px;
+	margin:0 0 10px 5px;
+}
+.tabs_content ul li a {
+	background:url(http://tofayas.wc.lt/Archive/col5/list_b.jpg) right top no-repeat;
+	display:inline-block;
+	height:11px;
+	text-align:right;
+	text-indent:12px;
+	line-height:10px;
+	color:#555;
+	text-shadow:0 1px #fff;
+	font-size:11px;
+	font-weight:bold;
+}
+.tabs_content ul li a:hover {
+	background:url(http://tofayas.wc.lt/Archive/col5/list_b.jpg) right bottom no-repeat;
+	color:#666;
+	text-shadow:0 1px #fff;
+}
+
+/****/
+.advs {
+	width:666px;
+	overflow:hidden;
+	float:left;
+	margin:0 0 0 15px;
+}
+.adv160 {
+	background:url(http://tofayas.wc.lt/Archive/col5/adv160.png) center bottom no-repeat;
+	width:160px;
+	height:70px;
+	float:left;
+	margin:10px 0 0 10px;
+}
+/***rightside***/
+.rightside {
+	width:230px;
+	float:right;
+	margin:0 20px 0 0;
+}
+.smenu {
+	background:url(http://tofayas.wc.lt/Archive/col5/smenu_bg.jpg) center top repeat-y;
+	float:right;
+	width:212px;
+	margin:0 0 0 0;
+}
+.smenu_top {
+	background:url(http://tofayas.wc.lt/Archive/col5/smenu_top.jpg) center top no-repeat;
+	width:212px;
+	height:63px;
+}
+.smenu_top h2 {
+	text-align:center;
+	line-height:47px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#163b31;
+	text-shadow:0 1px #48b3a1;
+}
+.smenu_end {
+	background:url(http://tofayas.wc.lt/Archive/col5/smenu_end.jpg) center top no-repeat;
+	width:212px;
+	height:62px;
+	float:right;
+}
+.smenu_content {
+	width:206px;
+	overflow:hidden;
+	float:right;
+}
+.smenu_content ul {
+	direction:rtl;
+	float:right;
+	margin:5px  7px 0  0;
+}
+.smenu_content ul li {
+
+}
+.smenu_content ul li a {
+	display:block;
+	background:url(http://tofayas.wc.lt/Archive/col5/smenu_btn.jpg) center bottom no-repeat;
+	width:197px;
+	height:33px;
+	line-height:31px;
+	text-align:right;
+	text-indent:20px;
+	font-size:11px;
+	font-weight:bold;
+	color:#545252;
+	text-shadow:0 1px #fff;
+}
+.smenu_content ul li a:hover{
+	background:url(http://tofayas.wc.lt/Archive/col5/smenu_btn.jpg) center top no-repeat;
+	color:#163b31;
+	text-shadow:0 1px #48b3a1;
+}
+/**footer**/
+.footer {
+	width:100%;
+	height:311px;
+}
+.footer_dash {
+	background:url(http://tofayas.wc.lt/Archive/col5/footer_dash_bg.jpg) center top repeat-x;
+	width:100%;
+	height:214px;
+}
+.footer_dash_l {
+	background:url(http://tofayas.wc.lt/Archive/z/logo%202-5.png) center top no-repeat;
+	width:451px;
+	height:214px;
+	float:left;
+}
+.footer_dash_R {
+	background:url(http://tofayas.wc.lt/Archive/col5/footer_dash_R.jpg) right top no-repeat;
+	width:535px;
+	height:214px;
+	float:right;
+}
+.footer_dash_R ul {
+	direction:rtl;
+	margin:45px 40px 0 0;
+}
+.footer_dash_R ul li {
+	float:right;
+	width:160px;
+	margin:0 0 8px 0;
+}
+.footer_dash_R ul li a {
+	display:inline-block;
+	background:url(http://tofayas.wc.lt/Archive/col5/list_bg.png) right bottom no-repeat;
+	height:17px;
+	text-align:right;
+	text-indent:20px;
+	color:#611828;
+	font-size:11px;
+	font-weight:bold;
+	text-shadow:0 1px  #f47293;
+}
+.footer_dash_R ul li a:hover {
+	background:url(http://tofayas.wc.lt/Archive/col5/list_bg.png) right top no-repeat;
+	color:#FFFFFF;
+	text-shadow:0 1px 2px #333;
+}
+.footer_sh {
+	background:url(http://tofayas.wc.lt/Archive/col5/footer_dash_sh.jpg) center top repeat-x;
+	width:100%;
+	height:17px;
+}
+.footer_sh_L {
+	background:url(http://tofayas.wc.lt/Archive/col5/footer_dash_sh_L.jpg) left top no-repeat;
+	width:453px;
+	height:17px;
+	float:left;
+}
+.footer_sh_R {
+	background:url(http://tofayas.wc.lt/Archive/col5/footer_dash_sh_R.jpg) left top no-repeat;
+	width:453px;
+	height:17px;
+	float:right;
+}
+.footer_end {
+	width:100%;
+	height:55px;
+	margin:25px 0 0 0;
+}
+/**/
+.footer_end_L {
+	background:url(http://tofayas.wc.lt/Archive/col5/footer_end_L.jpg) center top no-repeat;
+	width:164px;
+	height:55px;
+	float:left;
+}
+.footer_end_L a {
+	width:112px;
+	height:26px;
+	float:left;
+	display:block;
+	margin:16px 0 0 27px;
+}
+.socialend {
+	width:373px;
+	height:62px;
+	float:left;
+	margin:150px 0 0 0;
+}
+.socialend ul {
+	direction:ltr;
+	margin:18px 0 0 85px;
+}
+.socialend ul li {
+	float:left;
+	margin:0 5px 0 0;
+}
+.socialend ul li a {
+	display:block;
+	width:30px;
+	height:30px;
+}
+/**/
+.footer_end_R {
+	background:url(http://tofayas.wc.lt/Archive/col5/footer_end_R.jpg) center top no-repeat;
+	width:341px;
+	height:55px;
+	float:right;
+}
+/* Shbkat end */
