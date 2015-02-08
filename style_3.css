@@ -8,7 +8,7 @@
 	min-width: 986px;
 }
 body {
-	background:url(http://tofayas.wc.lt/Archive/col3/page_bg.jpg) center top repeat;
+	background:url(/svn/col3/page_bg.jpg) center top repeat;
 	margin: 0px;
 	padding: 0px;
 	
@@ -41,7 +41,7 @@ input, textarea, sub, select {
 	padding: 0px;
 }
 legend {
-	background: transparent url(http://tofayas.wc.lt/Archive/col3/tit.jpg) repeat-x top left;
+	background: transparent url(/svn/col3/tit.jpg) repeat-x top left;
 	color: #fff;
 	
 	border-style: none;
@@ -113,7 +113,7 @@ a:hover, a:active {
 	text-decoration: none;
 }
 .thead ,th ,td.catLeft{
-	background: transparent url('http://tofayas.wc.lt/Archive/col3/tit.jpg') repeat-x center -1px;
+	background: transparent url('/svn/col3/tit.jpg') repeat-x center -1px;
 	color: #e3fff8;
 	
 	padding: 5px;
@@ -121,7 +121,7 @@ a:hover, a:active {
 	text-shadow: 0 1px 0 #123129;
 }
 #fa_toolbar, #fa_toolbar_hidden {
-	background: transparent url('http://tofayas.wc.lt/Archive/col3/tit.jpg') repeat-x center -1px;
+	background: transparent url('/svn/col3/tit.jpg') repeat-x center -1px;
 }
 .thead a:link, .thead_alink {
 	text-decoration: none;
@@ -436,7 +436,7 @@ a.shade:active, a.shade:hover {
 	font-size: 18px;
 }
 .CatTop {
-	background:url(http://tofayas.wc.lt/Archive/col3/cat2.jpg) repeat-x scroll center top;
+	background:url(/svn/col3/cat2.jpg) repeat-x scroll center top;
 	height: 111px;
 	width: 100%;
 }
@@ -444,7 +444,7 @@ a.shade:active, a.shade:hover {
 	float: right;
 	width: 356px;
 	height: 111px;
-	background: transparent url('http://tofayas.wc.lt/Archive/col3/cat3.jpg') no-repeat scroll right top;
+	background: transparent url('/svn/col3/cat3.jpg') no-repeat scroll right top;
 }
 .CatTop_Right h1 {
 	color: #fafafa;
@@ -468,14 +468,14 @@ a.shade:active, a.shade:hover {
 	float: left;
 	width: 374px;
 	height: 111px;
-	background: transparent url('http://tofayas.wc.lt/Archive/z/03.jpg') no-repeat scroll left top;
+	background: transparent url('/svn/z/03.jpg') no-repeat scroll left top;
 }
 .CatCenter_Right {
-	background: transparent url('http://tofayas.wc.lt/Archive/col3/cat5.jpg') repeat-y scroll right center;
+	background: transparent url('/svn/col3/cat5.jpg') repeat-y scroll right center;
 	padding-right: 34px;
 }
 .CatCenter_Left {
-	background: transparent url('http://tofayas.wc.lt/Archive/col3/cat4.jpg') repeat-y scroll left center;
+	background: transparent url('/svn/col3/cat4.jpg') repeat-y scroll left center;
 	padding-left: 34px;
 	overflow:hidden;
 }
@@ -489,7 +489,7 @@ a.shade:active, a.shade:hover {
 	margin:0 0 10px 5px;
 }
 .CatCenter_Left ul li a {
-	background:url(http://tofayas.wc.lt/Archive/col3/list_b.jpg) right top no-repeat;
+	background:url(/svn/col3/list_b.jpg) right top no-repeat;
 	display:inline-block;
 	height:11px;
 	text-align:right;
@@ -501,7 +501,7 @@ a.shade:active, a.shade:hover {
 	font-weight:bold;
 }
 .CatCenter_Left ul li a:hover {
-	background:url(http://tofayas.wc.lt/Archive/col3/list_b.jpg) right bottom no-repeat;
+	background:url(/svn/col3/list_b.jpg) right bottom no-repeat;
 	color:#666;
 	text-shadow:0 1px #fff;
 }
@@ -513,25 +513,25 @@ a.shade:active, a.shade:hover {
 	float: left;
 	height: 69px;
 	width: 100%;
-	background: transparent url('http://tofayas.wc.lt/Archive/col3/cat7.jpg') repeat-x scroll center top;
+	background: transparent url('/svn/col3/cat7.jpg') repeat-x scroll center top;
 }
 .CatBottom_Right {
 	float: right;
 	width: 401px;
 	height: 69px;
-	background: transparent url('http://tofayas.wc.lt/Archive/col3/cat8.jpg') no-repeat scroll right top;
+	background: transparent url('/svn/col3/cat8.jpg') no-repeat scroll right top;
 }
 
 .CatBottom_Left {
 	float: left;
 	width: 412px;
 	height: 69px;
-	background: transparent url('http://tofayas.wc.lt/Archive/z/04.jpg') no-repeat scroll left top;
+	background: transparent url('/svn/z/04.jpg') no-repeat scroll left top;
 }
 /* Cat End */
 /* Shbkat Start */
 #wrapper1 {
-	background:url(http://tofayas.wc.lt/Archive/col3/top_bg.jpg) center top repeat-x;
+	background:url(/svn/col3/top_bg.jpg) center top repeat-x;
 	width:100%;
 	overflow:visible;
 }
@@ -539,7 +539,7 @@ div {
 	overflow:hidden;
 }
 #wrapper2 {
-	background:url(http://tofayas.wc.lt/Archive/col3/end_bg.jpg) center bottom repeat-x;
+	background:url(/svn/col3/end_bg.jpg) center bottom repeat-x;
 	width:100%;
 	overflow:visible;
 }
@@ -550,18 +550,18 @@ div {
 }
 /***header****/
 .header {
-	background:url(http://tofayas.wc.lt/Archive/col3/top_bg.jpg) center top repeat-x;
+	background:url(/svn/col3/top_bg.jpg) center top repeat-x;
 	width:100%;
 	height:432px;
 }
 
 .topdash {
-	background:url(http://tofayas.wc.lt/Archive/col3/top_dash.jpg) center top repeat-x;
+	background:url(/svn/col3/top_dash.jpg) center top repeat-x;
 	width:100%;
 	height:107px;
 }
 .color {
-	background:url(http://tofayas.wc.lt/Archive/col3/top_dash_L.jpg) left top no-repeat;
+	background:url(/svn/col3/top_dash_L.jpg) left top no-repeat;
 	width:342px;
 	height:107px;
 	float:left;
@@ -580,7 +580,7 @@ div {
 	height:22px;
 }
 .topmenu {
-	background:url(http://tofayas.wc.lt/Archive/col3/top_dash_R.jpg) right top no-repeat;
+	background:url(/svn/col3/top_dash_R.jpg) right top no-repeat;
 	width:643px;
 	height:107px;
 	float:right;
@@ -607,14 +607,14 @@ div {
 .topmenu ul li a:hover {
 	color:#FFFFFF;
 	text-shadow:0 1px #666;
-	background:url(http://tofayas.wc.lt/Archive/col3/topmenu_btn.png) center top no-repeat;
+	background:url(/svn/col3/topmenu_btn.png) center top no-repeat;
 }
 .topmenu .active {
 	color:#FFFFFF;
-	background:url(http://tofayas.wc.lt/Archive/col3/topmenu_btn.png) center top no-repeat;
+	background:url(/svn/col3/topmenu_btn.png) center top no-repeat;
 }
 .tophead {
-	background:url(http://tofayas.wc.lt/Archive/z/logo%202-5.png) right top no-repeat;
+	background:url(/svn/z/logo%202-5.png) right top no-repeat;
 	width:100%;
 	height:175px;
 }
@@ -627,7 +627,7 @@ div {
 	width:468px;
 	height:70px;
 	float:left;
-	background:url(http://tofayas.wc.lt/Archive/col3/adv_sh.png) center bottom no-repeat;
+	background:url(/svn/col3/adv_sh.png) center bottom no-repeat;
 	margin:10px 0 0 20px;
 }
 .dashbar {
@@ -636,7 +636,7 @@ div {
 	height:62px;
 }
 .search {
-	background:url(http://tofayas.wc.lt/Archive/col3/dashbar_L.jpg) left top no-repeat;
+	background:url(/svn/col3/dashbar_L.jpg) left top no-repeat;
 	width:467px;
 	height:62px;
 	float:left;
@@ -665,7 +665,7 @@ div {
 }
 /**/
 .socialtop {
-	background:url(http://tofayas.wc.lt/Archive/col3/dashbar_R.jpg) right top no-repeat;
+	background:url(/svn/col3/dashbar_R.jpg) right top no-repeat;
 	width:427px;
 	height:62px;
 	float:right;
@@ -685,12 +685,12 @@ div {
 }
 /**/
 .header .navbar {
-	background:url(http://tofayas.wc.lt/Archive/col3/navbar.jpg) center top repeat-x;
+	background:url(/svn/col3/navbar.jpg) center top repeat-x;
 	width:100%;
 	height:88px;
 }
 .navmenu {
-	background:url(http://tofayas.wc.lt/Archive/col3/navbar_L.jpg) left top no-repeat;
+	background:url(/svn/col3/navbar_L.jpg) left top no-repeat;
 	width:615px;
 	height:88px;
 	float:left;
@@ -705,7 +705,7 @@ div {
 }
 .navmenu ul li a {
 	display:block;
-	background:url(http://tofayas.wc.lt/Archive/col3/nav_menu.png) right top no-repeat;
+	background:url(/svn/col3/nav_menu.png) right top no-repeat;
 	width:85px;
 	height:38px;
 	text-align:center;
@@ -716,12 +716,12 @@ div {
 	text-shadow:0 1px 2px #333333;
 }
 .navmenu ul li a:hover {
-	background:url(http://tofayas.wc.lt/Archive/col3/nav_menu.png) left top no-repeat;
+	background:url(/svn/col3/nav_menu.png) left top no-repeat;
 	color:#234775;
 	text-shadow:0 1px 2px #9cd7f8;
 }
 .reg {
-	background:url(http://tofayas.wc.lt/Archive/z/05.jpg) right top no-repeat;
+	background:url(/svn/z/05.jpg) right top no-repeat;
 	width:365px;
 	height:88px;
 	float:right;
@@ -734,13 +734,13 @@ div {
 }
 /**mypage**/
 .mypage_R {
-	background:url(http://tofayas.wc.lt/Archive/col3/mypage_bg_R.jpg) right top repeat-y;
+	background:url(/svn/col3/mypage_bg_R.jpg) right top repeat-y;
 	background-color:#FFF;
 	padding: 0 39px 0 0;
 	clear:both;
 }
 .mypage_L {
-	background:url(http://tofayas.wc.lt/Archive/col3/mypage_bg_L.jpg) left top repeat-y;
+	background:url(/svn/col3/mypage_bg_L.jpg) left top repeat-y;
 	padding: 0 0 0 39px;
 	background-color:#FFF;
 	clear:both;
@@ -753,7 +753,7 @@ div {
 }
 /****/
 .tabs {
-	background:url(http://tofayas.wc.lt/Archive/col3/tabs_bg.jpg) center top repeat-x;
+	background:url(/svn/col3/tabs_bg.jpg) center top repeat-x;
 	height:194px;
 	float:left;
 	overflow:hidden;
@@ -761,14 +761,14 @@ div {
 	margin:10px 0 0 25px;
 }
 .tabs_L {
-	background:url(http://tofayas.wc.lt/Archive/col3/tabs_L.jpg) center top no-repeat;
+	background:url(/svn/col3/tabs_L.jpg) center top no-repeat;
 	width:19px;
 	height:194px;
 	float:left;
 	overflow:hidden;
 }
 .tabs_R {
-	background:url(http://tofayas.wc.lt/Archive/col3/tabs_R.jpg) center top no-repeat;
+	background:url(/svn/col3/tabs_R.jpg) center top no-repeat;
 	width:17px;
 	height:194px;
 	float:right;
@@ -792,7 +792,7 @@ div {
 	margin:0 0 0 5px;
 }
 .tabs_top ul li a {
-	background:url(http://tofayas.wc.lt/Archive/col3/tabs_btn.jpg) left top no-repeat;
+	background:url(/svn/col3/tabs_btn.jpg) left top no-repeat;
 	display:block;
 	width:107px;
 	height:49px;
@@ -804,12 +804,12 @@ div {
 	font-weight:bold;
 }
 .tabs_top ul li a:hover {
-	background:url(http://tofayas.wc.lt/Archive/col3/tabs_btn.jpg) right top no-repeat;
+	background:url(/svn/col3/tabs_btn.jpg) right top no-repeat;
 	color:#152e27;
 	text-shadow:0 1px #78d4ba;
 }
 .tabsactive {
-	background:url(http://tofayas.wc.lt/Archive/col3/tabs_btn.jpg) right top no-repeat !important;
+	background:url(/svn/col3/tabs_btn.jpg) right top no-repeat !important;
 	color:#152e27 !important;
 	text-shadow:0 1px #78d4ba !important;
 }
@@ -828,7 +828,7 @@ div {
 	margin:0 0 10px 5px;
 }
 .tabs_content ul li a {
-	background:url(http://tofayas.wc.lt/Archive/col3/list_b.jpg) right top no-repeat;
+	background:url(/svn/col3/list_b.jpg) right top no-repeat;
 	display:inline-block;
 	height:11px;
 	text-align:right;
@@ -840,7 +840,7 @@ div {
 	font-weight:bold;
 }
 .tabs_content ul li a:hover {
-	background:url(http://tofayas.wc.lt/Archive/col3/list_b.jpg) right bottom no-repeat;
+	background:url(/svn/col3/list_b.jpg) right bottom no-repeat;
 	color:#666;
 	text-shadow:0 1px #fff;
 }
@@ -853,7 +853,7 @@ div {
 	margin:0 0 0 15px;
 }
 .adv160 {
-	background:url(http://tofayas.wc.lt/Archive/col3/adv160.png) center bottom no-repeat;
+	background:url(/svn/col3/adv160.png) center bottom no-repeat;
 	width:160px;
 	height:70px;
 	float:left;
@@ -866,13 +866,13 @@ div {
 	margin:0 20px 0 0;
 }
 .smenu {
-	background:url(http://tofayas.wc.lt/Archive/col3/smenu_bg.jpg) center top repeat-y;
+	background:url(/svn/col3/smenu_bg.jpg) center top repeat-y;
 	float:right;
 	width:212px;
 	margin:0 0 0 0;
 }
 .smenu_top {
-	background:url(http://tofayas.wc.lt/Archive/col3/smenu_top.jpg) center top no-repeat;
+	background:url(/svn/col3/smenu_top.jpg) center top no-repeat;
 	width:212px;
 	height:63px;
 }
@@ -885,7 +885,7 @@ div {
 	text-shadow:0 1px #48b3a1;
 }
 .smenu_end {
-	background:url(http://tofayas.wc.lt/Archive/col3/smenu_end.jpg) center top no-repeat;
+	background:url(/svn/col3/smenu_end.jpg) center top no-repeat;
 	width:212px;
 	height:62px;
 	float:right;
@@ -905,7 +905,7 @@ div {
 }
 .smenu_content ul li a {
 	display:block;
-	background:url(http://tofayas.wc.lt/Archive/col3/smenu_btn.jpg) center bottom no-repeat;
+	background:url(/svn/col3/smenu_btn.jpg) center bottom no-repeat;
 	width:197px;
 	height:33px;
 	line-height:31px;
@@ -917,7 +917,7 @@ div {
 	text-shadow:0 1px #fff;
 }
 .smenu_content ul li a:hover{
-	background:url(http://tofayas.wc.lt/Archive/col3/smenu_btn.jpg) center top no-repeat;
+	background:url(/svn/col3/smenu_btn.jpg) center top no-repeat;
 	color:#163b31;
 	text-shadow:0 1px #48b3a1;
 }
@@ -927,12 +927,12 @@ div {
 	height:311px;
 }
 .footer_dash {
-	background:url(http://tofayas.wc.lt/Archive/col3/footer_dash_bg.jpg) center top repeat-x;
+	background:url(/svn/col3/footer_dash_bg.jpg) center top repeat-x;
 	width:100%;
 	height:214px;
 }
 .footer_dash_l {
-	background:url(http://tofayas.wc.lt/Archive/z/logo%202-5.png) center top no-repeat;
+	background:url(/svn/z/logo%202-5.png) center top no-repeat;
 	width:451px;
 	height:214px;
 	float:left;
@@ -954,7 +954,7 @@ div {
 }
 .footer_dash_R ul li a {
 	display:inline-block;
-	background:url(http://tofayas.wc.lt/Archive/col3/list_bg.png) right bottom no-repeat;
+	background:url(/svn/col3/list_bg.png) right bottom no-repeat;
 	height:17px;
 	text-align:right;
 	text-indent:20px;
@@ -964,23 +964,23 @@ div {
 	text-shadow:0 1px  #9cd7f8;
 }
 .footer_dash_R ul li a:hover {
-	background:url(http://tofayas.wc.lt/Archive/col3/list_bg.png) right top no-repeat;
+	background:url(/svn/col3/list_bg.png) right top no-repeat;
 	color:#FFFFFF;
 	text-shadow:0 1px 2px #333;
 }
 .footer_sh {
-	background:url(http://tofayas.wc.lt/Archive/col3/footer_dash_sh.jpg) center top repeat-x;
+	background:url(/svn/col3/footer_dash_sh.jpg) center top repeat-x;
 	width:100%;
 	height:17px;
 }
 .footer_sh_L {
-	background:url(http://tofayas.wc.lt/Archive/col3/footer_dash_sh_L.jpg) left top no-repeat;
+	background:url(/svn/col3/footer_dash_sh_L.jpg) left top no-repeat;
 	width:453px;
 	height:17px;
 	float:left;
 }
 .footer_sh_R {
-	background:url(http://tofayas.wc.lt/Archive/col3/footer_dash_sh_R.jpg) left top no-repeat;
+	background:url(/svn/col3/footer_dash_sh_R.jpg) left top no-repeat;
 	width:453px;
 	height:17px;
 	float:right;
@@ -992,7 +992,7 @@ div {
 }
 /**/
 .footer_end_L {
-	background:url(http://tofayas.wc.lt/Archive/col3/footer_end_L.jpg) center top no-repeat;
+	background:url(/svn/col3/footer_end_L.jpg) center top no-repeat;
 	width:164px;
 	height:55px;
 	float:left;
@@ -1025,7 +1025,7 @@ div {
 }
 /**/
 .footer_end_R {
-	background:url(http://tofayas.wc.lt/Archive/col3/footer_end_R.jpg) center top no-repeat;
+	background:url(/svn/col3/footer_end_R.jpg) center top no-repeat;
 	width:341px;
 	height:55px;
 	float:right;
