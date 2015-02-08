@@ -1,4 +1,3 @@
-<script type="text/javascript">
 function addLink() {
 var body_element = document.getElementsByTagName('body')[0];
 var selection;
@@ -16,4 +15,3 @@ window.setTimeout(function() {
 },0);
 }
 document.oncopy = addLink;
-</script>
