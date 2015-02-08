@@ -1,1 +1,19 @@
-if(document.location.protocol=='http:'){var Tynt=Tynt||[];Tynt.push('dO4lSUu7ir4k0gadbi-bnq');Tynt.i={"ap":"«·„’œ—: œ—œ‘ Ê ⁄·„ «· ﬁ‰ÌÂ :"};(function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h)})()}
+<script type="text/javascript">
+function addLink() {
+var body_element = document.getElementsByTagName('body')[0];
+var selection;
+selection = window.getSelection();
+var pagelink = "<br /><br /> Read more at: <a href='"+document.location.href+"'>"+document.location.href+"</a><br />Copyright ©"http://tofayas.techno-zone.net/"; // change this if you want
+var copytext = selection + pagelink;
+var newdiv = document.createElement('div');
+newdiv.style.position='absolute';
+newdiv.style.left='-99999px';
+body_element.appendChild(newdiv);
+newdiv.innerHTML = copytext;
+selection.selectAllChildren(newdiv);
+window.setTimeout(function() {
+  body_element.removeChild(newdiv);
+},0);
+}
+document.oncopy = addLink;
+</script>
