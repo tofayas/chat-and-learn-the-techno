@@ -42,8 +42,8 @@ adfly_cookie = function(name, value, options) {
 };
 
 
-if(typeof popunder != 'undefined' && popunder == true && !document.getElementById('adflyPuDisplayScript')){
-    document.write("<script type='text/javascript' id='adflyPuDisplayScript' src='//cdn.adf.ly/js/display.js'></script>");
+if(typeof popunder != 'undefined' && popunder == true){
+    document.write("<script type='text/javascript' src='//cdn.adf.ly/js/display.js'></script>");
 }
 
 var requested_protocol = 'http';
@@ -56,4 +56,5 @@ if (typeof(adfly_protocol) === 'string') {
 }
     
 document.write('<script type="text/javascript" src="' + requested_protocol + '://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>');     
+
 document.write('<script type="text/javascript" src="' + requested_protocol + '://cdn.adf.ly/static/js/entry_scriptV1.2.js"></script>');
