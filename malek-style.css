@@ -1326,11 +1326,11 @@ a:hover, a:active, body_ahover
 .page
 {
 	color: #000000;
-	font-family: Droid Arabic Kufi, tahoma;
+	font-family: Droid Arabic Kufi;
 }
 td, th, p, li
 {
-	font: 10pt Droid Arabic Kufi, tahoma;
+	font: 10pt Droid Arabic Kufi;
 }
 .tborder
 {
