@@ -1330,7 +1330,7 @@ a:hover, a:active, body_ahover
 }
 td, th, p, li
 {
-	font: 10pt Droid Arabic Kufi;
+	/*font: 10pt Droid Arabic Kufi;*/
 }
 .tborder
 {
