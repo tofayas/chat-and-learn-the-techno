@@ -1068,7 +1068,7 @@ box-shadow: 0px 0px 6px 2px rgba(166, 166, 166, 0.6);
 -webkit-box-shadow: 0px 0px 6px 2px rgba(156, 156, 157, 0.6);
 }
 .malek-must-usr{
-  float: left;
+  float: right;
   background: #585A5A;
   border: solid 1px #2C2C2C;
   border-radius: 3px;
