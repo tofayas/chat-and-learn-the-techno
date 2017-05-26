@@ -976,11 +976,11 @@ border-radius: 3px;
 border: solid 1px #ABC7E7;
 background-color: #D0DFF0;
 color: #2D3266;
-float: right;
+float: left;
 margin: 2px 5px 2px 0;
 padding: 0;
 text-align: center;
-width: 130px;
+width: 115px;
 font-size: 11px;
 }
 .malek-sub:hover{
