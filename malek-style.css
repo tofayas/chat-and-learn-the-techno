@@ -306,13 +306,13 @@ position: relative;
 	position: relative;
 	float: left;
 }
-.banner-cnt{
+/*.banner-cnt{
 	height: 84px;
 	width: 360px;
 	position: absolute;
     right: 10px;
     top: 30px;
-}
+}*/
 
 #h-banner-a {
   position:relative;
